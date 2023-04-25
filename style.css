@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;500;600;700;900&family=Righteous&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1200px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-titulo {
+    line-height: 10px;
+    flex-direction: column;
+}
+
+.cabecalho-links {
+    display: flex;
+    gap: 110px;
+}
+
+.cabecalho-links-style {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    margin: 20px;
+    font-size: large;
+    font-weight: 200;
+}
+
+.cabecalho-links-style:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#botao-destaque {
+    border: 2px solid rgb(132, 14, 201);;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#botao-destaque:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.conteudo-principal-titulo {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Poppinsmedium', sans-serif;
+}
+
+span {
+    color: rgb(132, 14, 201);
+}
+
+.conteudo-principal-paragrafo {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Poppinslight', sans-serif;
+}
+
+.conteudo-principal-imagem {
+    width: 600px;
+}
+
+.conteudo-principal-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%; 
+    padding-top: 25px;
+    gap: 12px;
+}
+
+.conteudo-principal-links-texto {
+    font-weight: 400;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.conteudo-principal-links-style {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    font-weight: 200;
+    border: 2px solid rgb(132, 14, 201);;
+    padding: 10px;
+    border-radius: 15px;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+    gap: 16px;
+}
+
+.conteudo-principal-links-style:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}

@@ -21,14 +21,13 @@
     }
 
     #botao-destaque {
-        border: 1px solid rgb(132, 14, 201);;
-        padding: 7px;
-        border-radius: 15px;
+        border: none
+       
     }
 
     main {
         flex-direction: column;
-        margin-top: 80px;
+        margin-top: 50px;
         align-items: center;
         text-align: center;
     }
@@ -52,6 +51,7 @@
     .conteudo-principal-links-texto {
         font-size: 1.1rem;
         margin-bottom: 0 auto;
+        margin-top: -10px;
     }
 
     .conteudo-principal-links-style {
@@ -59,8 +59,30 @@
         gap: 10px;
     }
 
-    img {
-        width: 10%;
-        margin-top: 5px;
+    .conteudo-principal-imagem {
+        width: 50%;
+        margin-top: 15px;
+    }
+
+    .rodape {
+        border-top: none;
+    }
+
+    .conteudo-principal-adm {
+        flex-direction: column;
+        margin-top: 60px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo-principal-titulo-adm {
+        font-size: 1.5rem;
+        line-height: 25px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
     }
 }

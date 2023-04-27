@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;500;600;700;900&family=Righteous&display=swap');
 
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-
 body {
     background-color: rgb(34, 34, 34);
     color: white;
@@ -65,80 +60,46 @@ h1 {
     font-weight: 200;
 }
 
-main {
+.conteudo-principal-adm {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 5px;
+    padding-top: 55px;
+    align-items: center;
 }
 
-.conteudo-principal-titulo {
-    font-size: 56px;
+.conteudo-principal-titulo-adm {
+    font-size: 30px;
     line-height: 10px;
     font-family: 'Poppinsmedium', sans-serif;
 }
 
-span {
-    color: rgb(132, 14, 201);
-}
-
-.conteudo-principal-paragrafo {
-    line-height: 20px;
-    max-width: 500px;
-    font-family: 'Poppinslight', sans-serif;
-}
-
-.conteudo-principal-imagem {
-    width: 600px;
-}
-
-.conteudo-principal-links {
+.formulario {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%; 
-    padding-top: 25px;
-    gap: 12px;
+    width: 30%;
 }
 
-.conteudo-principal-links-texto {
-    font-weight: 400;
-    font-size: 23px;
-    margin-bottom: 10px;
-    margin-top: 0 auto;
-}
-
-.conteudo-principal-links-style {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: large;
-    font-weight: 200;
-    border: 2px solid rgb(132, 14, 201);;
-    padding: 10px;
-    border-radius: 15px;
-    width: 60%;
-    text-align: center;
-    font-weight: 500;
-    gap: 16px;
-}
-
-.conteudo-principal-links-style:hover {
+.formulario [type="submit"] {
+    height: 50px;
+    width: 50%;
     background-color: rgb(132, 14, 201);
     color: white;
+    font-weight: bold;
+    align-self: center;
 }
 
-.rodape {
-    border-top: 0.4px solid #FFF2E7;
-    padding: 10px;
-}
-
-.rodape-link {
-    text-decoration: none;
+.formulario [type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(188, 99, 247);
     color: white;
-    padding-top: 10px;
-    margin: 20px;
-    font-size: large;
-    font-weight: 200;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
 }

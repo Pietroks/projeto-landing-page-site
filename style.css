@@ -147,3 +147,8 @@ span {
     font-size: large;
     font-weight: 200;
 }
+
+.rodape-link:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}

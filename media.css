@@ -3,33 +3,38 @@
     .cabecalho {
         flex-direction: column;
         justify-content: center;
-        padding-top: 5%;
+        padding-top: 2%;
     }
 
     .cabecalho-titulo {
         align-items: center;
-        text-align: center;
+        text-align: left;
     }
 
     .cabecalho-links {
-        gap: 10px;
-        align-items: center;
-        display: inline;
-        margin-top: 20px;
         text-align: center;
-        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho-links-style {
+        display: inline-flex;
+        padding-top: 10px;
+        margin: 17px;
+        font-size: medium;
+        font-weight: 200;
+    }
+
+    .cabecalho-a {
+        color: white;
     }
 
     #botao-destaque {
         border: none
-       
     }
 
     main {
         flex-direction: column;
-        margin-top: 50px;
         align-items: center;
-        text-align: center;
     }
 
     .conteudo-principal {
@@ -37,8 +42,9 @@
     }
 
     .conteudo-principal-titulo {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
         line-height: 10px;
+        margin-top: 10px;
     }
 
     .conteudo-principal-paragrafo {
@@ -62,10 +68,11 @@
         width: 50%;
         gap: 10px;
     }
-
+   
     .conteudo-principal-imagem {
         width: 50%;
         margin-top: 15px;
+        margin-left: 25%;
     }
 
     .rodape {
@@ -74,7 +81,7 @@
 
     .conteudo-principal-adm {
         flex-direction: column;
-        margin-top: 60px;
+        margin-top: 1px;
         align-items: center;
         text-align: center;
     }
@@ -82,6 +89,7 @@
     .conteudo-principal-titulo-adm {
         font-size: 1.5rem;
         line-height: 25px;
+        margin-top: 1px;
     }
 
     .formulario {
@@ -100,12 +108,13 @@
     .conteudo-principal-titulo-about {
         font-size: 2.5rem;
         line-height: 10px;
+        margin-top: 10px;
     }
 
     .conteudo-principal-paragrafo-about {
         width: auto;
-        font-size: 1.1rem;
-        font-weight: 100;
+        font-size: 1.0rem;
+        font-weight: lighter;
         text-align: left;
     }
     

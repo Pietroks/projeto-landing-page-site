@@ -31,28 +31,27 @@ body {
     flex-direction: column;
 }
 
-.cabecalho-links {
-    display: flex;
-    gap: 110px;
-}
-
 .cabecalho-links-style {
+    display: inline-block;
     text-decoration: none;
-    color: white;
     padding-top: 10px;
     margin: 20px;
     font-size: large;
     font-weight: 200;
 }
 
-.cabecalho-links-style:hover {
+.cabecalho-a {
+    color: white;
+}
+
+.cabecalho-a:hover {
     color: rgb(132, 14, 201);
     transition: 0.3s all;
 }
 
 #botao-destaque {
     border: 2px solid rgb(132, 14, 201);;
-    padding: 10px;
+    padding: 5px;
     border-radius: 15px;
 }
 
@@ -141,6 +140,7 @@ span {
 
 .rodape-link {
     text-decoration: none;
+    font-size: smaller;
     color: white;
     padding-top: 10px;
     margin: 20px;

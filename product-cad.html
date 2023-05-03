@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login de administrador</title>
-    <link rel="stylesheet" href="./admstyle.css">
+    <title>Cadastro de produtos</title>
+    <link rel="stylesheet" href="./cadstyle.css">
     <link rel="stylesheet" href="./media.css">
 </head>
 <body>
@@ -20,14 +20,16 @@
             <a class="cabecalho-a" href="./products.html" id="botao-destaque"><li class="cabecalho-links-style">Produtos</li></a>
         </ul>
     </header>
-    <main class="conteudo-principal-adm">
-        <h2 class="conteudo-principal-titulo-adm">Insira os dados de administrador</h2>
+    <main class="conteudo-principal-cad">
+        <h2 class="conteudo-principal-cad-titulo">Cadastre os novos produtos</h2>
         <form class="formulario">
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="E-mail">
-            <input type="submit" value="Entrar >">
+            <input type="text" placeholder="Nome do produto">
+            <textarea placeholder="Descrição" rows="5"></textarea>  
+            <input type="text" placeholder="Tipo">
+            <input id="date" type="date">
+            <input type="submit" value="Cancelar">
+            <input type="submit" value="Cadastrar">
         </form>
+
+
     </main>
-    
-</body>
-</html>

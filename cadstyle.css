@@ -60,7 +60,7 @@ body {
     color: white;
 }
 
-h1 {
+h1, h2 {
     font-weight: 200;
 }
 
@@ -68,60 +68,81 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-top: 5px;
-    padding-top: auto;
     align-items: left;
 }
 
-.conteudo-principal-titulo-cad {
-    font-size: 30px;
-    line-height: 10px;
-    font-family: 'Poppinsmedium', sans-serif;
+.conteudo-principal-cad-titulo {
+    color: rgb(132, 14, 201);
 }
 
-.formulario {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
-    row-gap: 10px;
-    column-gap: 20px;
-    width: 30%;
-}
-
-.formulario [type="submit"] {
-    height: 50px;
-    width: 65%;
-    background-color: rgb(132, 14, 201);
+.campo {
     color: white;
-    font-weight: bold;
-    align-self: center;
+    margin-bottom: 20px;
+    width: 50%;
 }
 
-.formulario [type="submit"]:hover {
-    cursor: pointer;
-    background-color: rgb(188, 99, 247);
-    color: white;
+label {
+    margin-right: 20px;
 }
 
 input {
-    margin-top: 20px;
+    border-radius: 8px;
+    padding: 0.1em;
+    border: 1.4px solid rgb(132, 14, 201);
     height: 20px;
-    padding: 15px;
+    width: 35%;
+}
+
+.campo [type="date"] {
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#data {
+    margin-right: 30px;
+}
+
+select {
     border-radius: 20px;
-    border: none;
-    font-size: 15px;
+    padding: 0.1em;
+    border: 1.4px solid rgb(132, 14, 201);
 }
 
-#date {
-    width: 60%;
+.campo-textarea {
+    color: white;
+    margin-bottom: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-
-textarea {
-    height: 50px;
-    width: 100%;
-    background-color: white;
-    font-weight: bold;
-    align-self: center;
-    border-radius: 15px;
+#descricao {
     resize: none;
+    border-radius: 8px;
+    padding: 0.1em;
+    border: 1.4px solid rgb(132, 14, 201);
+}
+
+.botao-cad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    padding-top: 30px;
+}
+
+.botao {
+    border-radius: 15px;
+    padding: 1em;
+    border: 1.4px solid rgb(132, 14, 201);
+    background-color: rebeccapurple;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: rgb(188, 99, 247);
+    color: white;
 }

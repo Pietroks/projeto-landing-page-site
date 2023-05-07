@@ -173,4 +173,78 @@
     .rodape-products {
         display: none;
     }
+
+    .cabecalho-cad {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 2%;
+        margin-bottom: 17px;
+    }
+
+    .cabecalho-titulo-cad {
+        align-items: center;
+        text-align: left;
+    }
+
+    .cabecalho-links-cad {
+        text-align: center;
+        align-items: center;
+    }
+
+    .cabecalho-links-style-cad {
+        display: inline-flex;
+        padding-top: 10px;
+        margin: 17px;
+        font-size: medium;
+        font-weight: 200;
+    }
+
+    .conteudo-principal-cad {
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .conteudo-principal-cad-titulo {
+        color: rgb(132, 14, 201);
+        width: auto;
+    }
+    
+    .campo {
+        width: auto;
+        margin-top: 5px;
+    }
+    
+    label {
+        margin-right: 20px;
+    }
+    
+    input {
+        width: 145%;
+    }
+    
+    .campo [type="date"] {
+        width: 60%;
+    }
+
+    #imagem {
+        padding: 6px 12px;
+        cursor: pointer;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .campo-textarea {
+        width: 165%;
+    }
+
+    #descricao {
+        height: 110px;
+    }
+    
+    .botao-cad {
+        width: 100%;
+        padding-top: 10px;
+        gap: 80%;
+    }
 }

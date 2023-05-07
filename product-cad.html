@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="./media.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho-titulo">
+    <header class="cabecalho-cad">
+        <div class="cabecalho-titulo-cad">
             <h1>Marketing</h1>
             <h1>Criativo</h1>
         </div>
-        <ul class="cabecalho-links">
-            <a class="cabecalho-a" href="./index.html"><li class="cabecalho-links-style">Inicio</li></a>
-            <a class="cabecalho-a" href="./about.html"><li class="cabecalho-links-style">Sobre</li></a>
-            <a class="cabecalho-a" href="./products.html" id="botao-destaque"><li class="cabecalho-links-style">Produtos</li></a>
+        <ul class="cabecalho-links-cad">
+            <a class="cabecalho-a" href="./index.html"><li class="cabecalho-links-style-cad">Inicio</li></a>
+            <a class="cabecalho-a" href="./about.html"><li class="cabecalho-links-style-cad">Sobre</li></a>
+            <a class="cabecalho-a" href="./products.html" id="botao-destaque"><li class="cabecalho-links-style-cad">Produtos</li></a>
         </ul>
     </header>
     <div class="conteudo-principal-cad">
@@ -43,9 +43,13 @@
                     <option value="">Hypercar</option>
             </select>
         </div>
+        <div class="campo">
+            <label for="imagem">Selecione uma imagem</label>
+            <input type="file" name="imagem" id="imagem">
+        </div>
         <div class="campo-textarea">
                 <label for="descricao">Descrição</label>
-                <textarea rows="6" style="width: 26em;" id="descricao"></textarea>
+                <textarea rows="6" id="descricao"></textarea>
         </div>
         <div class="botao-cad">
             <button class="botao" type="submit">Cancelar</button>

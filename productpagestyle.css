@@ -64,60 +64,70 @@ h1 {
     font-weight: 200;
 }
 
-.main-cabecalho-products {
-    font-weight: 200;
-    margin-bottom: 20px;
-    font-size: 2.0rem;
-}
-
-.grid-produtos {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-around;
-    row-gap: 20px;
-    column-gap: 20px;
-
-}
-
-.produto {
-    border: 1px solid beige;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.produto-img {
-    width: 100%;
-    height: 80%;
-    border-radius: 5px;
-}
-
-.produto p {
-    color: #FFF2E7;
-    background-color: rebeccapurple;
-    padding: 3px 5px;
-    text-align: center;
-    cursor: default;
-    border-radius: 5px;
+main {
+    display: flex;
+    flex-direction: row;
     margin-top: 5px;
-    cursor: pointer;
+    margin-bottom: 30px;
 }
 
-.produto p:hover {
+.botao-voltar {
+    margin-top: -30px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    border: 2px solid royalblue;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.back-link:hover {
     background-color: royalblue;
-    transition: 0.3s all;
-    color: black;
+    color: white;
 }
 
-.rodape-products {
+.conteudo-principal-produtopag {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 25px;
+}
+
+.conteudo-principal-titulo-produtopag {
+    font-size: 46px;
+    line-height: 10px;
+    font-family: 'Poppinsmedium', sans-serif;
+    width: 90%;
+    height: fit-content ;
+}
+
+span {
+    color: royalblue;
+}
+
+.conteudo-principal-paragrafo-produtopag {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Poppinslight', sans-serif;
+}
+
+p {
+    font-weight: 100;
+}
+
+.conteudo-principal-imagem-produtopag {
+    width: 50%;
+    height: 435px;
+    padding-top: 25px;
+}
+
+.rodape-produtopag {
     border-top: 0.4px solid #FFF2E7;
     padding: 10px;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .rodape-link {
@@ -127,6 +137,7 @@ a {
     margin: 20px;
     font-size: large;
     font-weight: 200;
+    display: none;
 }
 
 .rodape-link:hover {

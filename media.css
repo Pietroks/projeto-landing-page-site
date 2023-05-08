@@ -247,4 +247,32 @@
         padding-top: 10px;
         gap: 80%;
     }
+
+    .botao-voltar {
+        display: none;
+    }
+
+    .conteudo-principal-produtopag {
+        width: auto;
+        padding: 10px;
+    }
+    
+    .conteudo-principal-titulo-produtopag {
+        font-size: 1.5rem;
+        line-height: 10px;
+        margin-top: 10px;
+    }
+    
+    .conteudo-principal-paragrafo-produtopag {
+        width: auto;
+        font-size: 0.8rem;
+        font-weight: lighter;
+        text-align: left;
+    }
+    
+    .conteudo-principal-imagem-produtopag {
+        width: 100%;
+        height: auto;
+        margin-top: -25px;
+    }
 }

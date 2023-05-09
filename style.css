@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;500;600;700;900&family=Righteous&display=swap');
 
+:root {
+    --cor--background: #F94892;
+    --cor--fonte: #FBE5E5;
+    --cor--titulo: #E60965;
+    --cor--hover: #FFA1C9;
+
+    --fonte--primaria: 'Poppins', sans-serif;
+    --fonte--secundaria: 'Montserrat', sans-serif;
+}
+
 /* * {
     margin: 0;
     padding: 0;
 } */
 
 body {
-    background-color: #F7C8E0;
-    color: #95BDFF;
-    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor--background);
+    color: var(--cor--fonte);
+    font-family: var(--fonte--primaria);
     font-weight: normal;
     font-style: normal;
     box-sizing: border-box;
@@ -23,12 +33,13 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 48px;
-    border-bottom: 0.4px solid #FFF2E7;
+    border-bottom: 0.4px solid white;
 }
 
 .cabecalho-titulo {
     line-height: 10px;
     flex-direction: column;
+    cursor: none;
 }
 
 .cabecalho-links-style {
@@ -41,22 +52,22 @@ body {
 }
 
 .cabecalho-a {
-    color: white;
+    color: var(--cor--fonte);
 }
 
 .cabecalho-a:hover {
-    color: rgb(132, 14, 201);
+    color: var(--cor--hover);
     transition: 0.3s all;
 }
 
 #botao-destaque {
-    border: 2px solid rgb(132, 14, 201);;
+    border: 2px solid var(--cor--hover);
     padding: 5px;
     border-radius: 15px;
 }
 
 #botao-destaque:hover {
-    background-color: rgb(132, 14, 201);
+    background-color: var(--cor--hover);
     color: white;
 }
 
@@ -78,17 +89,17 @@ main {
 .conteudo-principal-titulo {
     font-size: 56px;
     line-height: 10px;
-    font-family: 'Poppinsmedium', sans-serif;
+    font-family: var(--fonte--primaria);
 }
 
 span {
-    color: rgb(132, 14, 201);
+    color: var(--cor--titulo);
 }
 
 .conteudo-principal-paragrafo {
     line-height: 20px;
     max-width: 500px;
-    font-family: 'Poppinslight', sans-serif;
+    font-family: var(--fonte--primaria);
 }
 
 .conteudo-principal-imagem {
@@ -116,10 +127,10 @@ span {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    color: white;
+    color: var(--cor--fonte);
     font-size: large;
     font-weight: 200;
-    border: 2px solid rgb(132, 14, 201);;
+    border: 2px solid var(--cor--hover);
     padding: 10px;
     border-radius: 15px;
     width: 60%;
@@ -129,19 +140,19 @@ span {
 }
 
 .conteudo-principal-links-style:hover {
-    background-color: rgb(132, 14, 201);
-    color: white;
+    background-color: var(--cor--hover);
+    color: var(--cor--fonte);
 }
 
 .rodape {
-    border-top: 0.4px solid #FFF2E7;
+    border-top: 0.4px solid white;
     padding: 10px;
 }
 
 .rodape-link {
     text-decoration: none;
     font-size: smaller;
-    color: white;
+    color: var(--cor--fonte);
     padding-top: 10px;
     margin: 20px;
     font-size: large;
@@ -149,6 +160,6 @@ span {
 }
 
 .rodape-link:hover {
-    color: rgb(132, 14, 201);
+    color: var(--cor--hover);
     transition: 0.3s all;
 }
